@@ -1,0 +1,48 @@
+import type { Challenge } from '@/types/models';
+
+export const defaultChallenges: Challenge[] = [
+  {
+    id: 'c1',
+    name: '30-Day Workout Challenge',
+    description: 'Complete at least 20 workouts in 30 days',
+    duration: 30,
+    progress: 14,
+    total: 20,
+    participants: 2847,
+    active: true,
+    type: 'workout',
+  },
+  {
+    id: 'c2',
+    name: '10K Steps Daily',
+    description: 'Walk 10,000 steps every day for 2 weeks',
+    duration: 14,
+    progress: 9,
+    total: 14,
+    participants: 5621,
+    active: true,
+    type: 'cardio',
+  },
+  {
+    id: 'c3',
+    name: '100K kg Volume Month',
+    description: 'Lift a combined 100,000 kg this month',
+    duration: 30,
+    progress: 52000,
+    total: 100000,
+    participants: 1203,
+    active: true,
+    type: 'strength',
+  },
+  {
+    id: 'c4',
+    name: 'Protein Goal Streak',
+    description: 'Hit your daily protein target for 7 consecutive days',
+    duration: 7,
+    progress: 4,
+    total: 7,
+    participants: 3890,
+    active: true,
+    type: 'nutrition',
+  },
+];

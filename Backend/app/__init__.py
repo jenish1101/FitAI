@@ -1,0 +1,1 @@
+"""FitAI backend application package."""
