@@ -21,9 +21,14 @@
 
 ### 📱 App Walkthrough
 
-<video src="Fitness-Extra/FitAI.mp4" controls width="720" style="border-radius: 12px; max-width: 100%;">
-  <a href="Fitness-Extra/FitAI.mp4">Download FitAI demo video</a>
-</video>
+<!-- GitHub README does not render <video> tags — use poster + link (works on GitHub) -->
+<a href="Fitness-Extra/FitAI.mp4" title="Watch FitAI demo video">
+  <img src="Fitness-Extra/demo-poster.png" alt="▶ Watch FitAI demo — click to play" width="720" style="border-radius: 12px; max-width: 100%;" />
+</a>
+
+<br />
+
+**[▶ Watch demo video](Fitness-Extra/FitAI.mp4)** · [Download MP4](Fitness-Extra/FitAI.mp4)
 
 <br />
 
@@ -172,7 +177,8 @@ FitAI was built as a **complete, portfolio-ready fitness platform** — a polish
 | Asset | Description |
 |-------|-------------|
 | `FitAI.mp4` | App demo / showcase video |
-| `Backend.png` | Backend architecture or API screenshot |
+| `demo-poster.png` | Video thumbnail (click to play on GitHub) |
+| `Backend.png` | Swagger API screenshot |
 
 ---
 
@@ -228,6 +234,7 @@ FitAI/
 │
 ├── Fitness-Extra/               # Marketing & demo assets
 │   ├── FitAI.mp4
+│   ├── demo-poster.png
 │   └── Backend.png
 │
 └── README.md                    # You are here
@@ -422,9 +429,12 @@ All media lives in [`Fitness-Extra/`](Fitness-Extra/):
 | File | Description |
 |------|-------------|
 | [`FitAI.mp4`](Fitness-Extra/FitAI.mp4) | Screen recording / product walkthrough |
+| [`demo-poster.png`](Fitness-Extra/demo-poster.png) | Thumbnail — click to open video on GitHub |
 | [`Backend.png`](Fitness-Extra/Backend.png) | Swagger UI screenshot of the REST API |
 
-See the [Preview](#-preview) section at the top for embedded video and API screenshot.
+See the [Preview](#-preview) section at the top.
+
+> **Why no inline video on GitHub?** GitHub README blocks HTML `<video>` tags. The poster image links to `FitAI.mp4`, which opens GitHub’s built-in player. For autoplay-style embed, drag `FitAI.mp4` into the README editor on github.com — GitHub uploads it and inserts a `user-attachments` URL that plays inline.
 
 ---
 
