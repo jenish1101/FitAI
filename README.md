@@ -21,14 +21,13 @@
 
 ### 📱 App Walkthrough
 
-<!-- GitHub README does not render <video> tags — use poster + link (works on GitHub) -->
-<a href="Fitness-Extra/FitAI.mp4" title="Watch FitAI demo video">
-  <img src="Fitness-Extra/demo-poster.png" alt="▶ Watch FitAI demo — click to play" width="720" style="border-radius: 12px; max-width: 100%;" />
+<a href="https://photos.app.goo.gl/zeQWyXuKfppXJrTo8" title="Watch FitAI demo on Google Photos">
+  <img src="Fitness-Extra/Poster.png" alt="▶ Watch FitAI demo — opens in Google Photos" width="280" style="border-radius: 16px; max-width: 100%; box-shadow: 0 8px 24px rgba(30, 58, 138, 0.15);" />
 </a>
 
 <br />
 
-**[▶ Watch demo video](Fitness-Extra/FitAI.mp4)** · [Download MP4](Fitness-Extra/FitAI.mp4)
+[![Watch on Google Photos](https://img.shields.io/badge/▶_Watch_Walkthrough-Google_Photos-4285F4?style=for-the-badge&logo=googlephotos&logoColor=white)](https://photos.app.goo.gl/zeQWyXuKfppXJrTo8)
 
 <br />
 
@@ -176,9 +175,10 @@ FitAI was built as a **complete, portfolio-ready fitness platform** — a polish
 
 | Asset | Description |
 |-------|-------------|
-| `FitAI.mp4` | App demo / showcase video |
-| `demo-poster.png` | Video thumbnail (click to play on GitHub) |
+| [Google Photos album](https://photos.app.goo.gl/zeQWyXuKfppXJrTo8) | App walkthrough — screen recording & product tour |
+| `Poster.png` | Walkthrough thumbnail (links to Google Photos) |
 | `Backend.png` | Swagger API screenshot |
+| `FitAI.mp4` | Local copy of the walkthrough video |
 
 ---
 
@@ -234,7 +234,7 @@ FitAI/
 │
 ├── Fitness-Extra/               # Marketing & demo assets
 │   ├── FitAI.mp4
-│   ├── demo-poster.png
+│   ├── Poster.png
 │   └── Backend.png
 │
 └── README.md                    # You are here
@@ -390,17 +390,19 @@ Base URL: `http://localhost:8001/v1`
 | `POST` | `/auth/register` | — | Create account |
 | `POST` | `/auth/login` | — | Login → JWT + profile |
 | `GET` | `/auth/me` | ✅ | Current user profile |
-| `POST` | `/auth/forgot-password` | — | Request reset code |
-| `POST` | `/auth/reset-password` | — | Reset password with code |
+| `POST` | `/auth/forgot-password` | — | Request reset code + reset token |
+| `POST` | `/auth/reset-password` | ✅ | Reset password (reset token + code) |
 | `GET/PUT` | `/users/profile` | ✅ | Read/update profile |
 | `GET` | `/workouts/plans` | ✅ | User workout plans |
 | `POST` | `/workouts/plans/generate` | ✅ | Regenerate plans |
 | `GET/POST` | `/workouts/logs` | ✅ | Workout history |
-| `GET` | `/exercises` | — | Exercise database |
-| `GET` | `/nutrition/foods` | — | Food database |
+| `GET` | `/exercises` | ✅ | Exercise database |
+| `GET` | `/nutrition/foods` | ✅ | Food database |
 | `GET/POST` | `/nutrition/logs` | ✅ | Food diary |
 | `GET/POST` | `/progress/metrics` | ✅ | Body measurements |
 | `GET/PATCH` | `/social/challenges` | ✅ | Fitness challenges |
+
+> **Auth column:** ✅ = Bearer token required (login JWT or reset token from forgot-password). `—` = public endpoint.
 
 Interactive docs: **http://localhost:8001/docs**
 
@@ -424,17 +426,14 @@ docker compose up --build
 
 ## 🎬 Fitness-Extra Assets
 
-All media lives in [`Fitness-Extra/`](Fitness-Extra/):
-
-| File | Description |
-|------|-------------|
-| [`FitAI.mp4`](Fitness-Extra/FitAI.mp4) | Screen recording / product walkthrough |
-| [`demo-poster.png`](Fitness-Extra/demo-poster.png) | Thumbnail — click to open video on GitHub |
+| Asset | Description |
+|-------|-------------|
+| [**Google Photos — App Walkthrough**](https://photos.app.goo.gl/zeQWyXuKfppXJrTo8) | Full screen recording & product tour (recommended) |
+| [`Poster.png`](Fitness-Extra/Poster.png) | Thumbnail in the [Preview](#-preview) section — click to open Google Photos |
 | [`Backend.png`](Fitness-Extra/Backend.png) | Swagger UI screenshot of the REST API |
+| [`FitAI.mp4`](Fitness-Extra/FitAI.mp4) | Local copy of the walkthrough (optional download) |
 
-See the [Preview](#-preview) section at the top.
-
-> **Why no inline video on GitHub?** GitHub README blocks HTML `<video>` tags. The poster image links to `FitAI.mp4`, which opens GitHub’s built-in player. For autoplay-style embed, drag `FitAI.mp4` into the README editor on github.com — GitHub uploads it and inserts a `user-attachments` URL that plays inline.
+See the [Preview](#-preview) section at the top for the walkthrough thumbnail and link.
 
 ---
 
