@@ -15,8 +15,39 @@
 
 ---
 
+## 🎬 Preview
+
+<div align="center">
+
+### 📱 App Walkthrough
+
+<video src="Fitness-Extra/FitAI.mp4" controls width="720" style="border-radius: 12px; max-width: 100%;">
+  <a href="Fitness-Extra/FitAI.mp4">Download FitAI demo video</a>
+</video>
+
+<br />
+
+<sub>Full product tour — workouts, nutrition, progress, profile & more</sub>
+
+<br /><br />
+
+### 🔌 Backend API (Swagger)
+
+<a href="Fitness-Extra/Backend.png">
+  <img src="Fitness-Extra/Backend.png" alt="FitAI API — Swagger documentation" width="820" style="border-radius: 12px; border: 1px solid #1e3a8a33;" />
+</a>
+
+<br />
+
+<sub>FastAPI REST API with JWT auth, workouts, nutrition, progress & social endpoints</sub>
+
+</div>
+
+---
+
 ## 📖 Table of Contents
 
+- [Preview](#-preview)
 - [Why FitAI?](#-why-fitai)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
@@ -386,12 +417,14 @@ docker compose up --build
 
 ## 🎬 Fitness-Extra Assets
 
-The `Fitness-Extra/` folder contains supplementary materials for presentations and README demos:
+All media lives in [`Fitness-Extra/`](Fitness-Extra/):
 
-- **`FitAI.mp4`** — Screen recording / product walkthrough of the app
-- **`Backend.png`** — Visual overview of the backend architecture or API
+| File | Description |
+|------|-------------|
+| [`FitAI.mp4`](Fitness-Extra/FitAI.mp4) | Screen recording / product walkthrough |
+| [`Backend.png`](Fitness-Extra/Backend.png) | Swagger UI screenshot of the REST API |
 
-Embed the demo video in GitHub by uploading to the repo or linking from releases.
+See the [Preview](#-preview) section at the top for embedded video and API screenshot.
 
 ---
 
@@ -458,14 +491,14 @@ This project is for educational and portfolio purposes. Extend and adapt as need
 
 <br />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1200&color=8B5CF6&center=true&vCenter=true&multiline=true&repeat=true&width=520&height=80&lines=Built+and+Developed+by;Jenish+Gondaliya" alt="Built and Developed by Jenish Gondaliya" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1200&color=3B82F6&center=true&vCenter=true&multiline=true&repeat=true&width=520&height=80&lines=Built+and+Developed+by;Jenish+Gondaliya" alt="Built and Developed by Jenish Gondaliya" />
 
 <br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=8B5CF6,6366F1,3B82F6&height=120&section=footer&text=Jenish%20Gondaliya&fontSize=42&fontColor=ffffff&animation=twinkling" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:2563eb,100:38bdf8&height=130&section=footer&text=Jenish%20Gondaliya&fontSize=42&fontColor=ffffff&animation=twinkling" width="100%" />
 
 <br />
 
-**Made with ❤️ for fitness enthusiasts everywhere**
+**Made with 💙 for fitness enthusiasts everywhere**
 
 </div>
