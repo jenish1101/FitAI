@@ -22,7 +22,7 @@
 ### 📱 App Walkthrough
 
 <a href="https://photos.app.goo.gl/zeQWyXuKfppXJrTo8" title="Watch FitAI demo on Google Photos">
-  <img src="Fitness-Extra/Poster.png" alt="▶ Watch FitAI demo — opens in Google Photos" width="280" style="border-radius: 16px; max-width: 100%; box-shadow: 0 8px 24px rgba(30, 58, 138, 0.15);" />
+  <img src="Assets/Poster.png" alt="▶ Watch FitAI demo — opens in Google Photos" width="280" style="border-radius: 16px; max-width: 100%; box-shadow: 0 8px 24px rgba(30, 58, 138, 0.15);" />
 </a>
 
 <br />
@@ -37,8 +37,8 @@
 
 ### 🔌 Backend API (Swagger)
 
-<a href="Fitness-Extra/Backend.png">
-  <img src="Fitness-Extra/Backend.png" alt="FitAI API — Swagger documentation" width="820" style="border-radius: 12px; border: 1px solid #1e3a8a33;" />
+<a href="Assets/Backend.png">
+  <img src="Assets/Backend.png" alt="FitAI API — Swagger documentation" width="820" style="border-radius: 12px; border: 1px solid #1e3a8a33;" />
 </a>
 
 <br />
@@ -61,7 +61,7 @@
 - [Running the Full App](#-running-the-full-app)
 - [Demo Account](#-demo-account)
 - [API Overview](#-api-overview)
-- [Fitness-Extra Assets](#-fitness-extra-assets)
+- [Assets](#-fitness-extra-assets)
 - [Troubleshooting](#-troubleshooting)
 - [Credits](#-credits)
 
@@ -232,8 +232,7 @@ FitAI/
 │   ├── Dockerfile
 │   └── .env.example             # Copy to .env
 │
-├── Fitness-Extra/               # Marketing & demo assets
-│   ├── FitAI.mp4
+├── Assets/               # Marketing & demo assets
 │   ├── Poster.png
 │   └── Backend.png
 │
